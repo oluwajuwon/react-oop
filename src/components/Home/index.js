@@ -11,6 +11,15 @@ class Home extends React.Component {
 
   }
 
+  renderLog () {
+    console.log('new one');
+    return (
+      <div>
+        <p>Just testing</p>
+      </div>
+    )
+  }
+
   render() {
     const { imgUrl } = this.state;
     return (
